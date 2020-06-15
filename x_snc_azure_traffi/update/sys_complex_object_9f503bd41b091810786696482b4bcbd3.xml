@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDdb503bd46a09181069d8d292600c23d3</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0e106cde1bb4d010c5ae8777dc4bcbe8</scope_name>
+        <serialized_content>{"FlowDesigner:FDdb503bd46a09181069d8d292600c23d3":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDdb503bd46a09181069d8d292600c23d3.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Subnets\",\"mandatory\":\"false\",\"child_name\":\"Subnet\",\"uiUniqueId\":\"bae71d8f-bbd8-4fea-858a-776d27226f84\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDdb503bd46a09181069d8d292600c23d3\",\"child_label\":\"Subnet\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"15\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"f51ed967-ecb9-41df-9cfd-9b38f151d7a1\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-24 12:21:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9f503bd41b091810786696482b4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDdb503bd46a09181069d8d292600c23d3</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Azure Traffic Manager" source="x_snc_azure_traffi">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure Traffic Manager">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_scope>
+        <sys_update_name>sys_complex_object_9f503bd41b091810786696482b4bcbd3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-24 12:21:02</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

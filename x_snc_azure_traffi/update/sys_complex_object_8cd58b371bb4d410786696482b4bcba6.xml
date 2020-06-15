@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDc8d58b37a6b4d41009a985569f552ba6</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0e106cde1bb4d010c5ae8777dc4bcbe8</scope_name>
+        <serialized_content>{"FlowDesigner:FDc8d58b37a6b4d41009a985569f552ba6":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDc8d58b37a6b4d41009a985569f552ba6.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Geo Mapping\",\"mandatory\":\"false\",\"child_name\":\"region\",\"uiUniqueId\":\"290cdb5a-7a21-441f-adf3-f3da4c0358c0\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDc8d58b37a6b4d41009a985569f552ba6\",\"child_label\":\"Countries/Regions\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"12\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"9113d652-f448-4a5b-ad1e-e334238e6723\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-05-22 19:58:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8cd58b371bb4d410786696482b4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDc8d58b37a6b4d41009a985569f552ba6</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Azure Traffic Manager" source="x_snc_azure_traffi">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure Traffic Manager">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_scope>
+        <sys_update_name>sys_complex_object_8cd58b371bb4d410786696482b4bcba6</sys_update_name>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-05-22 19:58:10</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>
