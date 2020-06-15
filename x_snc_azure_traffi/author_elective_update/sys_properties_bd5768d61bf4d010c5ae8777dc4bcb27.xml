@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description/>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_snc_azure_traffi.sn_flow_designer.max_action_vars</name>
+        <read_roles/>
+        <suffix>sn_flow_designer.max_action_vars</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-05-17 16:35:24</sys_created_on>
+        <sys_id>bd5768d61bf4d010c5ae8777dc4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_azure_traffi.sn_flow_designer.max_action_vars</sys_name>
+        <sys_package display_value="Azure Traffic Manager" source="x_snc_azure_traffi">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure Traffic Manager">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_scope>
+        <sys_update_name>sys_properties_bd5768d61bf4d010c5ae8777dc4bcb27</sys_update_name>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-05-17 16:35:24</sys_updated_on>
+        <type>string</type>
+        <value>100</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=bd5768d61bf4d010c5ae8777dc4bcb27"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Azure Traffic Manager">0e106cde1bb4d010c5ae8777dc4bcbe8</application>
+        <file_path/>
+        <instance_id>68fce1e0dbb81c1cd5c911f848961904</instance_id>
+        <instance_name>haritha3</instance_name>
+        <name>sys_properties_bd5768d61bf4d010c5ae8777dc4bcb27</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description/><ignore_cache>false</ignore_cache><is_private>false</is_private><name>x_snc_azure_traffi.sn_flow_designer.max_action_vars</name><read_roles/><suffix>sn_flow_designer.max_action_vars</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>haritha.ambati@snc</sys_created_by><sys_created_on>2020-05-17 16:35:24</sys_created_on><sys_id>bd5768d61bf4d010c5ae8777dc4bcb27</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_azure_traffi.sn_flow_designer.max_action_vars</sys_name><sys_package display_value="Azure Traffic Manager" source="x_snc_azure_traffi">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_package><sys_policy/><sys_scope display_value="Azure Traffic Manager">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_scope><sys_update_name>sys_properties_bd5768d61bf4d010c5ae8777dc4bcb27</sys_update_name><sys_updated_by>haritha.ambati@snc</sys_updated_by><sys_updated_on>2020-05-17 16:35:24</sys_updated_on><type>string</type><value>100</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=bd5768d61bf4d010c5ae8777dc4bcb27"/></record_update>]]></payload>
+        <payload_hash>-1081963689</payload_hash>
+        <record_name>x_snc_azure_traffi.sn_flow_designer.max_action_vars</record_name>
+        <reverted_from/>
+        <source>82106cde1bb4d010c5ae8777dc4bcbeb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-05-17 16:35:26</sys_created_on>
+        <sys_id>2577ecd61bf4d010c5ae8777dc4bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172237d7d870000001</sys_recorded_at>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-05-17 16:35:26</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>1177e89683f4d010d51e1188437d2e1b</update_guid>
+        <update_guid_history>1177e89683f4d010d51e1188437d2e1b:-1081963689</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-05-17 16:36:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>0b53b17bb34446228abed19129831a44</sys_id>
+        <sys_metadata>bd5768d61bf4d010c5ae8777dc4bcb27</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_azure_traffi.sn_flow_designer.max_action_vars</sys_name>
+        <sys_package display_value="Azure Traffic Manager" source="x_snc_azure_traffi">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Azure Traffic Manager">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_scope>
+        <sys_scope_delete display_value="">04fe63c770ef409a9dc21a49e40f26f9</sys_scope_delete>
+        <sys_update_name>sys_properties_bd5768d61bf4d010c5ae8777dc4bcb27</sys_update_name>
+        <sys_update_version display_value="sys_properties_bd5768d61bf4d010c5ae8777dc4bcb27">2577ecd61bf4d010c5ae8777dc4bcbb5</sys_update_version>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-05-17 16:36:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

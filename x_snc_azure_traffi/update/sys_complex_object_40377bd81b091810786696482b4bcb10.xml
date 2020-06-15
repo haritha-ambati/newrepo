@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD8c377bd8be09181014bce50deaad190f</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0e106cde1bb4d010c5ae8777dc4bcbe8</scope_name>
+        <serialized_content>{"FlowDesigner:FD8c377bd8be09181014bce50deaad190f":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD8c377bd8be09181014bce50deaad190f.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Endpoint Names\",\"mandatory\":\"true\",\"child_name\":\"endpoint_name\",\"uiUniqueId\":\"40658375-9bc5-4eb8-9055-82a9be4cce35\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD8c377bd8be09181014bce50deaad190f\",\"child_label\":\"Endpoint Name\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"7\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"64bf3202-779c-4f9a-805d-bbfcd94d0b8b\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-05-24 12:50:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>40377bd81b091810786696482b4bcb10</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>FD8c377bd8be09181014bce50deaad190f</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Azure Traffic Manager" source="x_snc_azure_traffi">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure Traffic Manager">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_scope>
+        <sys_update_name>sys_complex_object_40377bd81b091810786696482b4bcb10</sys_update_name>
+        <sys_updated_by>karthik.veenam@snc</sys_updated_by>
+        <sys_updated_on>2020-06-13 19:28:15</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

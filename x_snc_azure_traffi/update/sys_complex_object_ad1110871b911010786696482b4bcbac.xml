@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDe9111087d5911010c0c8aa4f0e7d57ac</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0e106cde1bb4d010c5ae8777dc4bcbe8</scope_name>
+        <serialized_content>{"FlowDesigner:FDe9111087d5911010c0c8aa4f0e7d57ac":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDe9111087d5911010c0c8aa4f0e7d57ac.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"endpoint_names\",\"mandatory\":\"true\",\"child_name\":\"endpoint_name\",\"uiUniqueId\":\"ac7bf161-6fce-4b66-8261-7a77599363be\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDe9111087d5911010c0c8aa4f0e7d57ac\",\"child_label\":\"endpoint_name\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"712a9515-e7e5-4757-ac7d-71d73e40ee8a\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>karthik.veenam@snc</sys_created_by>
+        <sys_created_on>2020-06-13 19:24:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ad1110871b911010786696482b4bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDe9111087d5911010c0c8aa4f0e7d57ac</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Azure Traffic Manager" source="x_snc_azure_traffi">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure Traffic Manager">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_scope>
+        <sys_update_name>sys_complex_object_ad1110871b911010786696482b4bcbac</sys_update_name>
+        <sys_updated_by>karthik.veenam@snc</sys_updated_by>
+        <sys_updated_on>2020-06-13 19:24:31</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

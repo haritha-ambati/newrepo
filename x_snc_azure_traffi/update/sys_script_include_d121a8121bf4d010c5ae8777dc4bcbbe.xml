@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_azure_traffi.AzureTrafficManagerUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>AzureTrafficManagerUtils</name>
+        <script><![CDATA[var AzureTrafficManagerUtils = Class.create();
+AzureTrafficManagerUtils.prototype = {
+    initialize: function() {},
+
+    validateInputVariables: function(inputs, outputs) {
+        for (var key in inputs) {
+            var value = inputs[key];
+            if (typeof value == 'string')
+                inputs[key] = value.trim();
+            else
+                inputs[key] = value;
+        }
+        return inputs;
+    },
+
+    validateMandatoryVariables: function(obj, keys) {
+        keys.forEach(function(key) {
+            if (!obj[key])
+                throw new Error("Error while executing, mandatory information isn't passed in " + key);
+        });
+    },
+
+    mapToOutputFromInput: function(inputs, outputs, keys) {
+        if (keys.length <= 0)
+            for (var key in inputs) {
+                outputs[key] = inputs[key];
+            } else {
+                keys.forEach(function(key) {
+                    outputs[key] = inputs[key];
+                });
+            }
+        return outputs;
+    },
+
+    createProfile: function(inputs, outputs) {
+        var payload = {};
+        var properties = {};
+        if (inputs.resource_location)
+            payload.location = inputs.resource_location;
+        if (inputs.routing_method)
+            properties.trafficRoutingMethod = inputs.routing_method;
+        if (inputs.profile_status)
+            properties.profileStatus = inputs.profile_status;
+        if (inputs.max_return)
+            properties.maxReturn = inputs.max_return;
+        var dns_config = {};
+        if (inputs.dns_config.Relative_Name)
+            dns_config.relativeName = inputs.dns_config.Relative_Name;
+        if (inputs.dns_config.DNS_Time_To_Live)
+            dns_config.ttl = inputs.dns_config.DNS_Time_To_Live;
+        properties.dnsConfig = dns_config;
+        var monitor_config = {};
+		if(inputs.monitor_config.Protocol == "TCP" && inputs.monitor_config.path != "")
+			throw new Error("The Monitor Path must be null when using TCP as a monitoring protocol.");
+        if (inputs.monitor_config.path)
+            monitor_config.path = inputs.monitor_config.path;
+        if (inputs.monitor_config.Port)
+            monitor_config.port = inputs.monitor_config.Port;
+        if (inputs.monitor_config.Tolerated_Number_Of_Failures < 10)
+            monitor_config.toleratedNumberOfFailures = inputs.monitor_config.Tolerated_Number_Of_Failures;
+        else
+			throw new Error("Tolerated Number Of Failures should be 0-9");
+		if (inputs.monitor_config.Timeout_In_Seconds >= 5)
+            monitor_config.timeoutInSeconds = inputs.monitor_config.Timeout_In_Seconds;
+		else 
+			throw new Error("Probe Timeout In Seconds value must be atleast 5");
+        if (inputs.monitor_config.Protocol)
+            monitor_config.protocol = inputs.monitor_config.Protocol;
+        if (inputs.monitor_config.intervalInSeconds)
+            monitor_config.intervalInSeconds = inputs.monitor_config.intervalInSeconds;
+        var headers = inputs.monitor_config.Custom_Headers;
+        if (headers.length > 0) {
+            var customHeaders = [];
+            headers.forEach(function(property) {
+                if (property.Name.trim() && property.Value.trim()) {
+                    var customHeader = {};
+                    customHeader.name = property.Name;
+                    customHeader.value = property.Value;
+                    customHeaders.push(customHeader);
+                }
+                monitor_config.customHeaders = customHeaders;
+            });
+            monitor_config.customHeaders = customHeaders;
+        }
+        var codeRanges = inputs.monitor_config.Expected_Status_Code_Ranges;
+        if (codeRanges.length > 0) {
+            var ranges = [];
+            codeRanges.forEach(function(property) {
+                if (property.Min.trim() && property.Max.trim()) {
+                    var range = {};
+                    range.name = property.Min;
+                    range.value = property.Max;
+                    ranges.push(range);
+                }
+                monitor_config.expectedStatusCodeRanges = ranges;
+            });
+            monitor_config.expectedStatusCodeRanges = ranges;
+        }
+        properties.monitorConfig = monitor_config;
+        payload.properties = properties;
+        var tags = inputs.tags;
+        if (tags.length > 0) {
+            var tagsarray = [];
+            tags.forEach(function(property) {
+                if (property.name.trim() && property.value.trim()) {
+                    var tag = {};
+                    name = property.name;
+                    value = property.value;
+                    tagsarray.push(tag);
+                }
+            });
+        }
+        payload.tags = tags;
+        outputs.payload = JSON.stringify(payload);
+        return outputs;
+    },
+
+    createEndpoint: function(inputs, outputs) {
+        var payload = {};
+        if (inputs.endpoint_type != "ExternalEndpoints" && inputs.target_id == "") {
+            throw new Error("Azure Resource ID should be provided for Azure Endpoint and Nested Endpoint Type.");
+        }
+        if (inputs.endpoint_type == "ExternalEndpoints" && inputs.target == "") {
+            throw new Error("External Target ID should be provided for External Endpoint Type.");
+        }
+        if (inputs.type)
+            payload.type = inputs.type;
+        if (inputs.resource_name)
+            payload.name = inputs.resource_name;
+        var properties = {};
+        if (inputs.endpoint_location)
+            properties.endpointLocation = inputs.endpoint_location;
+        if (inputs.monitor_status)
+            properties.endpointMonitorStatus = inputs.monitor_status;
+        if (inputs.status)
+            properties.endpointStatus = inputs.status;
+        if (inputs.min_child)
+            properties.minChildEndpoints = inputs.min_child;
+        if (inputs.priority)
+            properties.priority = inputs.priority;
+        if (inputs.target)
+            properties.target = inputs.target;
+        if (inputs.target_id)
+            properties.targetResourceId = inputs.target_id;
+        if (inputs.weight)
+            properties.weight = inputs.weight;
+        var headers = inputs.custom_headers;
+        if (headers.length > 0) {
+            var customHeaders = [];
+            headers.forEach(function(property) {
+                if (property.Name.trim() && property.Value.trim()) {
+                    var customHeader = {};
+                    customHeader.name = property.Name;
+                    customHeader.value = property.Value;
+                    customHeaders.push(customHeader);
+                }
+                properties.customHeaders = customHeaders;
+            });
+            properties.customHeaders = customHeaders;
+        }
+        if (inputs.subnets)
+            properties.subnets = inputs.subnets;
+        if (inputs.geo.length > 0) {
+            inputs.geo.forEach(function(region) {
+                var mappings = [];
+                if (region.trim()) {
+                    mappings.push(region.trim());
+                }
+                if (mappings.length > 0)
+                    properties.gepMapping = mappings;
+            });
+        }
+        payload.properties = properties;
+        outputs.payload = JSON.stringify(payload);
+        return outputs;
+    },
+
+    type: 'AzureTrafficManagerUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-05-17 16:08:10</sys_created_on>
+        <sys_id>d121a8121bf4d010c5ae8777dc4bcbbe</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_name>AzureTrafficManagerUtils</sys_name>
+        <sys_package display_value="Azure Traffic Manager" source="x_snc_azure_traffi">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Azure Traffic Manager">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_scope>
+        <sys_update_name>sys_script_include_d121a8121bf4d010c5ae8777dc4bcbbe</sys_update_name>
+        <sys_updated_by>karthik.veenam@snc</sys_updated_by>
+        <sys_updated_on>2020-06-13 21:01:03</sys_updated_on>
+    </sys_script_include>
+</record_update>

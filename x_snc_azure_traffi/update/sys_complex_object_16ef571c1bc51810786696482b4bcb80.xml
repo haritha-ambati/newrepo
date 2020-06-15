@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD52ef571ca5c51810daea0f9f915d7480</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0e106cde1bb4d010c5ae8777dc4bcbe8</scope_name>
+        <serialized_content>{"FlowDesigner:FD52ef571ca5c51810daea0f9f915d7480":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"1304b35b-ece3-434d-9650-2192c893f361\"}"},"properties":{"endpoint_location":"String","endpoint_location.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Endpoint Location\",\"mandatory\":\"true\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"ae48b893-3def-4974-a171-6836b507fe8d\"}"},"endpoint_monitor_status":"String","endpoint_monitor_status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Endpoint Monitor Status\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"9c62e6c8-9d32-454a-a4f0-822a91086288\"}"},"endpoint_status":"String","endpoint_status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Endpoint Status\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"5a370f2a-f7d0-4a50-b4d4-a60a4cbfa829\"}"},"weight":"String","weight.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Weight\",\"mandatory\":\"true\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"301fd2aa-fd46-4ca8-9c24-c75bd73e2e1a\"}"},"geo_mappings":["Any"],"geo_mappings.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Geo Mappings\",\"mandatory\":\"false\",\"child_name\":\"geo_mapping\",\"uiUniqueId\":\"ce6036b8-f3a6-403c-b937-4e5550e4a9b8\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"Geo Mapping\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"7\",\"max_length\":\"0\",\"child_uiUniqueId\":\"3cc1dca8-0218-420d-b8fb-ad4bf3db5548\"}"},"priority":"String","priority.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Priority\",\"mandatory\":\"true\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"14aaf905-367b-40f9-bdd7-689c275e2307\"}"},"target":"String","target.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Target\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"565c9b19-d42c-479e-bb64-7e118e680d6a\"}"}},"properties.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Properties\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"bdf9ea8b-2f1f-44b8-b8a7-4f0a0db0fed8\"}"}},"FlowDesigner:FD52ef571ca5c51810daea0f9f915d7480.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"5f2d7927-11b1-416d-984a-8ad91f93bbc8\",\"default_value\":\"\",\"label\":\"Endpoint\",\"mandatory\":\"false\",\"uiUniqueId\":\"40972455-a8d7-4889-8731-082e88f3e2fa\",\"uiTypeLabel\":\"\",\"co_type_name\":\"FD52ef571ca5c51810daea0f9f915d7480\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"800a4709-003f-4d3a-8a8c-289549dfcc62\",\"sourceType\":\"step\",\"hint\":null,\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-05-24 11:09:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>16ef571c1bc51810786696482b4bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD52ef571ca5c51810daea0f9f915d7480</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Azure Traffic Manager" source="x_snc_azure_traffi">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure Traffic Manager">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_scope>
+        <sys_update_name>sys_complex_object_16ef571c1bc51810786696482b4bcb80</sys_update_name>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-05-24 11:09:09</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

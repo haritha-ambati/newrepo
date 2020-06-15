@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDccd58b37dab4d410f31cacd101aa44a4</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0e106cde1bb4d010c5ae8777dc4bcbe8</scope_name>
+        <serialized_content>{"FlowDesigner:FDccd58b37dab4d410f31cacd101aa44a4":{"$COCollectionField":[{"custom_header":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"value":"String","value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Custom Headers\",\"mandatory\":\"false\",\"child_name\":\"custom_header\",\"uiUniqueId\":\"a606d044-3225-4202-9082-6e91e93bd9ab\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDccd58b37dab4d410f31cacd101aa44a4\",\"child_label\":\"Custom Header\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"9\",\"max_length\":\"40\",\"child_uiUniqueId\":\"e1b5d5b5-14ac-469b-905f-187c085ee072\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDccd58b37dab4d410f31cacd101aa44a4.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Custom Headers\",\"mandatory\":\"false\",\"child_name\":\"custom_header\",\"uiUniqueId\":\"a606d044-3225-4202-9082-6e91e93bd9ab\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDccd58b37dab4d410f31cacd101aa44a4\",\"child_label\":\"Custom Header\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"9\",\"max_length\":\"40\",\"child_uiUniqueId\":\"e1b5d5b5-14ac-469b-905f-187c085ee072\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-05-22 19:58:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>80d58b371bb4d410786696482b4bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDccd58b37dab4d410f31cacd101aa44a4</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Azure Traffic Manager" source="x_snc_azure_traffi">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure Traffic Manager">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_scope>
+        <sys_update_name>sys_complex_object_80d58b371bb4d410786696482b4bcba5</sys_update_name>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-05-22 19:58:10</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

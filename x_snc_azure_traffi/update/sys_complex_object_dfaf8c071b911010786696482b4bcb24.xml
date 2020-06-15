@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD1faf8c078f91101014b874e680a7e124</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0e106cde1bb4d010c5ae8777dc4bcbe8</scope_name>
+        <serialized_content>{"FlowDesigner:FD1faf8c078f91101014b874e680a7e124":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD1faf8c078f91101014b874e680a7e124.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"profile_names\",\"mandatory\":\"true\",\"child_name\":\"profile_name\",\"uiUniqueId\":\"895e86c0-1388-4bba-b3e4-bbd935aad4c5\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD1faf8c078f91101014b874e680a7e124\",\"child_label\":\"profile_name\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"4\",\"max_length\":\"0\",\"child_uiUniqueId\":\"6b19cf70-120c-4cda-ad97-b0ac00b0d70b\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>karthik.veenam@snc</sys_created_by>
+        <sys_created_on>2020-06-13 19:18:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dfaf8c071b911010786696482b4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD1faf8c078f91101014b874e680a7e124</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Azure Traffic Manager" source="x_snc_azure_traffi">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure Traffic Manager">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_scope>
+        <sys_update_name>sys_complex_object_dfaf8c071b911010786696482b4bcb24</sys_update_name>
+        <sys_updated_by>karthik.veenam@snc</sys_updated_by>
+        <sys_updated_on>2020-06-13 19:18:21</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

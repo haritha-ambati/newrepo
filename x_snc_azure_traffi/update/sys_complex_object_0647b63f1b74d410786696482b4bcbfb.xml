@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD4247b63f8974d410bc29463b1e0f0bfb</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0e106cde1bb4d010c5ae8777dc4bcbe8</scope_name>
+        <serialized_content>{"FlowDesigner:FD4247b63f8974d410bc29463b1e0f0bfb":{"DNS_Time_To_Live":"Integer","DNS_Time_To_Live.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"DNS Time-To-Live\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\"}"},"Relative_Name":"String","Relative_Name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FD4247b63f8974d410bc29463b1e0f0bfb.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD4247b63f8974d410bc29463b1e0f0bfb\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"DNS Configurations\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"65000\",\"uiUniqueId\":\"c66664f2-54d7-46af-b0aa-2e8fdd77913a\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-05-22 18:54:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0647b63f1b74d410786696482b4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD4247b63f8974d410bc29463b1e0f0bfb</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Azure Traffic Manager" source="x_snc_azure_traffi">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure Traffic Manager">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_scope>
+        <sys_update_name>sys_complex_object_0647b63f1b74d410786696482b4bcbfb</sys_update_name>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-05-22 18:54:41</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD7df5fb9841091810c503f4598fb6926e</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0e106cde1bb4d010c5ae8777dc4bcbe8</scope_name>
+        <serialized_content>{"FlowDesigner:FD7df5fb9841091810c503f4598fb6926e":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD7df5fb9841091810c503f4598fb6926e.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Endpoint Names\",\"mandatory\":\"false\",\"child_name\":\"Endpoint Names_child0\",\"uiUniqueId\":\"0f9bcd12-abeb-4bfb-a317-10d120cd386b\",\"uiTypeLabel\":\"\",\"co_type_name\":\"FD7df5fb9841091810c503f4598fb6926e\",\"child_label\":\"Endpoint Names_child0\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"4\",\"max_length\":\"0\",\"child_uiUniqueId\":\"92390b34-1edf-4530-a322-ca8737d3bb71\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-05-24 12:45:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>31f5fb981b091810786696482b4bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD7df5fb9841091810c503f4598fb6926e</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Azure Traffic Manager" source="x_snc_azure_traffi">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure Traffic Manager">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_scope>
+        <sys_update_name>sys_complex_object_31f5fb981b091810786696482b4bcb6f</sys_update_name>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-05-24 12:45:31</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

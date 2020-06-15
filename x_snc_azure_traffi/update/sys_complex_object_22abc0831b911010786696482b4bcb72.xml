@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD6eabc083d09110109807562f41773d71</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0e106cde1bb4d010c5ae8777dc4bcbe8</scope_name>
+        <serialized_content>{"FlowDesigner:FD6eabc083d09110109807562f41773d71":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD6eabc083d09110109807562f41773d71.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Profile Names\",\"mandatory\":\"false\",\"child_name\":\"profile_name\",\"uiUniqueId\":\"1c6ea16e-35cd-4aa0-9b4c-311971f6d3b3\",\"uiTypeLabel\":\"JSON\",\"co_type_name\":\"FD6eabc083d09110109807562f41773d71\",\"child_label\":\"Profile Name\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"json\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"4000\",\"child_uiUniqueId\":\"b2baec05-77ed-454c-97e0-2213593bcfa1\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>karthik.veenam@snc</sys_created_by>
+        <sys_created_on>2020-06-13 19:00:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>22abc0831b911010786696482b4bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD6eabc083d09110109807562f41773d71</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Azure Traffic Manager" source="x_snc_azure_traffi">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure Traffic Manager">0e106cde1bb4d010c5ae8777dc4bcbe8</sys_scope>
+        <sys_update_name>sys_complex_object_22abc0831b911010786696482b4bcb72</sys_update_name>
+        <sys_updated_by>karthik.veenam@snc</sys_updated_by>
+        <sys_updated_on>2020-06-13 19:00:50</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>
