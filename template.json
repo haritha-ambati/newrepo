@@ -1,0 +1,22 @@
+{
+   "Resources":{
+      "S3B2BNIH":{
+         "Type":"AWS::S3::Bucket",
+         "Properties":{
+         }
+      },
+     "SNST20191": {
+            "Type": "AWS::SNS::Topic",
+            "Properties": {}
+        }
+   },  "Parameters":{
+      "Purpose":{
+         "Type":"String",
+         "Default":"product"
+      },
+      "Purpose2":{
+         "Type":"String",
+         "Default":"product"
+      }
+   }
+}
